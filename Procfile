@@ -1,1 +1,1 @@
-gunicorn djangodwt.wsgi:dwt
+gunicorn djangodwt.wsgi:application
