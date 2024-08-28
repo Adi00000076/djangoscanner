@@ -1,1 +1,2 @@
-gunicorn djangodwt.wsgi:application
+
+web: gunicorn djangodwt.wsgi --log-file -
